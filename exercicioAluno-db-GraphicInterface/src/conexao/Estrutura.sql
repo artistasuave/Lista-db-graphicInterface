@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS sistemaAluno;
+CREATE DATABASE IF NOT EXISTS sistemaAluno;
+USE sistemaAluno;
+
+CREATE TABLE caracteristicasAluno(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	nome VARCHAR(100) NOT NULL,
+	cod_matricula VARCHAR (50) NOT NULL,
+	nota1 FLOAT NOT NULL,
+	nota2 FLOAT NOT NULL,
+	nota3 FLOAT NOT NULL,
+	frequencia TINYINT
+);
