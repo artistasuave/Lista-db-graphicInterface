@@ -10,7 +10,7 @@ public class AlunoBean {
     private String nome, cod_matricula;
     private byte frequencia;
 
-public int getId(){
+    public int getId(){
     return id;
 }
     
@@ -18,7 +18,7 @@ public int getId(){
     this.id = id;
 }
 
-    private double getNota1(){
+    public double getNota1(){
     return nota1;
 }
 
@@ -26,7 +26,7 @@ public int getId(){
     this.nota1 = nota1;
 }
 
-    private double getNota2(){
+    public double getNota2(){
     return nota2;
 }
 
@@ -34,7 +34,7 @@ public int getId(){
     this.nota2 = nota2;
 }
 
-    private double getNota3(){
+    public double getNota3(){
     return nota3;
 }
 
@@ -42,7 +42,7 @@ public int getId(){
     this.nota3 = nota3;
 }
 
-    private String getNome(){
+    public String getNome(){
     return nome;
 }
 
@@ -50,7 +50,7 @@ public int getId(){
     this.nome = nome;
 }
 
-    private String getCod_matricula(){
+    public String getCodMatricula(){
     return cod_matricula;
 }
 
@@ -58,7 +58,7 @@ public int getId(){
     this.cod_matricula = cod_matricula;
 }
 
-    private byte getFrequencia(){
+    public byte getFrequencia(){
     return frequencia;
 }
 

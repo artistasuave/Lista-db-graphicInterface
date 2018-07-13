@@ -26,7 +26,7 @@ public class AlunoDao {
                         .prepareStatement(sql,
                                 PreparedStatement.RETURN_GENERATED_KEYS);
                 preparedStatement.setInt(1, aluno.getId());
-                preparedStatement.setString(2, getCod_Matricula);
+                preparedStatement.setString(2, aluno.getCodMatricula());
                 preparedStatement.setString(3, aluno.getNome());
                 preparedStatement.setDouble(4, aluno.getNota1());
                 preparedStatement.setDouble(5, aluno.getNota2());
